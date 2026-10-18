@@ -1,0 +1,26 @@
+# Input/output data (ROOT files, CSV and text outputs are not tracked)
+data/*
+!data/README.md
+*.root
+*.csv
+*.txt
+!CMakeLists.txt
+
+# ROOT / ACLiC build products
+*.so
+*.d
+*.pcm
+*_ACLiC_dict*
+AutoDict_*
+
+# Plots
+*.png
+*.pdf
+*.eps
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
